@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class collect_main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        menu_class mc = new menu_class();
         while(true){
             int menu_sel = 0;
             System.out.println();
